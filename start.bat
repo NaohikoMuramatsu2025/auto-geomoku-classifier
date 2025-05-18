@@ -1,0 +1,5 @@
+::call conda activate gdal_10
+@echo off
+cd /d "%~dp0\Python_SRC"
+
+python land_use_guess_fixed.py
